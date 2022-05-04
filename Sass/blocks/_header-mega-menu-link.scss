@@ -1,0 +1,21 @@
+.header-mega-menu-link{
+  padding: 0 40px 0 30px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  color: #808080;
+  &:hover{
+    text-decoration: none;
+  }
+}
+.header-mega-menu-link__icon{
+  margin-right: 22px;
+}
+.header-mega-menu-link__text{
+  color: #808080;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+
+}

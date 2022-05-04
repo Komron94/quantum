@@ -1,0 +1,48 @@
+@import "base/base";
+@import "base/variebles";
+@import "base/mixins";
+@import "blocks/normalize";
+@import "fonts";
+@import "blocks/header";
+@import "blocks/header-select";
+@import "blocks/header-link";
+@import "blocks/header-nav";
+@import "blocks/nav-dropdown";
+@import "blocks/header-mega-menu-link";
+@import "blocks/carousel";
+@import "blocks/carousel-theme";
+@import "blocks/promo-section";
+@import "blocks/promo-section-item";
+@import "blocks/main";
+@import "blocks/navigation";
+@import "blocks/tabs";
+@import "blocks/cards";
+@import "blocks/info-block  ";
+@import "blocks/footer  ";
+@import "blocks/nav-footer  ";
+@import "blocks/social  ";
+@import "blocks/copyright  ";
+@import "blocks/payments  ";
+
+.header-select__title::after {
+  background-image: url("../image/Vector.png");
+}
+
+.nav-dropdown__title::after {
+  background-image: url("../image/Vector.png");
+}
+
+.owl-carousel.owl-theme .owl-nav {
+  button.owl-prev {
+    background-image: url("../image/arrow.svg");
+  }
+
+  button.owl-next {
+    background-image: url("../image/arrowsvgleft.svg");
+  }
+}
+
+.promo-section-item--background-img-watch {
+  background-color: #3b4b48;
+  background-image: url("../image/watch-carousel.jpg");
+}
